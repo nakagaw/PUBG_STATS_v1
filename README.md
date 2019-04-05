@@ -28,4 +28,5 @@ Please check this URL.
 http://localhost:3000
 
 Then you can see like this:
-<img src="./src/image.png">
+<img src="./public/image.png">
+
