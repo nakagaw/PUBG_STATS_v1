@@ -1,3 +1,5 @@
+You can get today's kills and Average damages from PUBG API with node.js
+
 # 1. Anyway npm install
 ```
 $ npm install
