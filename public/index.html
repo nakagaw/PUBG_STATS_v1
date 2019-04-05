@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title>MY PUBG STATS</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600i" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+        }
+        dl {
+            font-family: 'IBM Plex Mono', monospace;
+            line-height: 1;
+            display: grid;
+            grid-template-columns: auto 1fr;
+        }
+        dl dt {
+            font-size: 80px;
+            padding-top: 20px;
+            text-align: right;
+        }
+        dl dd {
+            padding-top: 20px;
+            font-size: 160px;
+        }
+        .color-1 {
+            color: #876eff;
+        }
+        .color-2 {
+            color: #ff00b8;
+        }
+    </style>
+  </head>
+  <body id="app">
+    <!-- <img src="250.gif"> -->
+    <dl>
+        <dt class="color-1">TODAYS<br>AVG DAMAGE</dt>
+        <dd class="color-1">contnet_avgDamage</dd>
+        <dt class="color-2">TODAYS<br>KILLS</dt>
+        <dd class="color-2">content_totalKills</dd>
+    </dl>
+  </body>
+</html>
